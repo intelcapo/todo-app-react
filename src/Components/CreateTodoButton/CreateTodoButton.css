@@ -1,0 +1,52 @@
+/* Estilo base del botón */
+.animated-button {
+    display: inline-block;
+    background-color: #2196f3; /* Azul claro */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 50%; /* Botón redondeado */
+    width: 60px; /* Tamaño del botón */
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra inicial */
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Contenido del botón */
+  .button-content {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: color 0.3s ease; /* Suaviza el cambio de color */
+  }
+  
+  /* Efecto al hacer hover en el botón */
+  .animated-button:hover {
+    background-color: #64b5f6; /* Azul más claro */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombra más fuerte */
+  }
+  
+  /* Efecto de giro al hacer hover */
+  .animated-button:hover .button-content {
+    animation: spin 0.5s linear; /* Giro continuo */
+  }
+  
+  /* Animación de rotación */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg); /* Inicio sin rotación */
+    }
+    to {
+      transform: rotate(180deg); /* Gira completamente */
+    }
+  }
+  
