@@ -1,75 +1,75 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# Todo App React
 
-¡Hola, Platzinauta!
+Esta es una aplicación creada con **React** en la que se han puesto en práctica conocimientos esenciales para el desarrollo de aplicaciones modernas. La aplicación permite gestionar tareas de manera sencilla y está diseñada para demostrar el uso de varias funcionalidades clave de React.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+## Tecnologías y conceptos aplicados
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+En esta aplicación se han implementado los siguientes conceptos:
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+- **Componentes:** Diseño modular basado en componentes reutilizables.
+- **Estados:** Gestor de estados locales para manejar la información dentro de los componentes.
+- **Props:** Paso de datos entre componentes de manera eficiente.
+- **Custom Hooks:** Creación de hooks personalizados para encapsular lógica reutilizable.
+- **Context API:** Manejo de estados globales para compartir datos entre componentes sin pasar props de forma manual.
 
-## Getting Started with Create React App
+## Visualiza la aplicación
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La aplicación está publicada en GitHub Pages y puedes probarla en la siguiente URL:
 
-## Available Scripts
+[https://intelcapo.github.io/todo-app-react/](https://intelcapo.github.io/todo-app-react/)
 
-In the project directory, you can run:
+## Características principales
 
-### `npm start`
+- Agregar, editar y eliminar tareas.
+- Persistencia básica de datos (localStorage o estados globales).
+- Interfaz amigable y responsiva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Cómo ejecutar el proyecto localmente
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Si deseas ejecutar esta aplicación en tu entorno local, sigue estos pasos:
 
-### `npm run build`
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/intelcapo/todo-app-react.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Accede al directorio del proyecto:
+   ```bash
+   cd todo-app-react
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+5. Abre tu navegador en [http://localhost:3000](http://localhost:3000) para ver la aplicación en ejecución.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribuciones
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Las contribuciones son bienvenidas. Si deseas colaborar, por favor sigue estos pasos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu funcionalidad o corrección de errores:
+   ```bash
+   git checkout -b nombre-rama
+   ```
+3. Realiza los cambios y haz un commit:
+   ```bash
+   git commit -m "Descripción de los cambios"
+   ```
+4. Envía un pull request para revisión.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Licencia
 
-## Learn More
+Este proyecto está bajo la licencia MIT. Puedes consultar el archivo [LICENSE](LICENSE) para más información.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+¡Gracias por visitar este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
